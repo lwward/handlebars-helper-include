@@ -1,4 +1,16 @@
-handlebars-helper-include
-=========================
+# Include
+Nest templates within templates
 
-Handlebars include helper
+## Installation
+Include `handlebars-include.js`
+
+## Usage
+```html
+{{include 'foo'}}
+```
+
+Optionally pass in a context as the second parameter:
+
+```html
+{{include 'foo' bar}}
+```
